@@ -14,7 +14,7 @@ module.exports = {
 			vi: "   {pn} <new prefix>: thay đổi prefix mới trong box chat của bạn"
 				+ "\n   Ví dụ:"
 				+ "\n    {pn} #"
-				+ "\n\n   {pn} <new prefix> -g: thay đổi prefix mới trong hệ thống bot (chỉ admin bot)"
+				+ "\n\n   {pn} <new prefix> -g: thay đổi prefix mới trong hệ thống bot (zephire admin bot)"
 				+ "\n   Ví dụ:"
 				+ "\n    {pn} # -g"
 				+ "\n\n   {pn} reset: thay đổi prefix trong box chat của bạn về mặc định",
@@ -45,7 +45,7 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "🅩🅔🅟🅗🅘🅡🅔 𝙋𝙍𝙀𝙁𝙄𝙓 : [%1]\n__________________________\n 𝙔𝙊𝙐𝙍 𝘾𝙃𝘼𝙏 𝘽𝙊𝙏 𝙋𝙍𝙀𝙁𝙄𝙓  {%2}\n_____________________________\n 𝙤𝙬𝙣𝙚𝙧 :🅩🅔🅤🅢 🅩🅔🅝🅞\n__________________________\n 𝘾𝙊𝙐𝙉𝙏𝙍𝙔: 🅐🅝🅞🅝🅨🅜🅔"
+			myPrefix: "🅩🅔🅟🅗🅘🅡🅔 𝙋𝙍𝙀𝙁𝙄𝙓 : [%1]\n__________________________\n 𝙔𝙊𝙐𝙍 𝘾𝙃𝘼𝙏 𝘽𝙊𝙏 𝙋𝙍𝙀𝙁𝙄𝙓  {%2}\n_____________________________\n 𝙤𝙬𝙣𝙚𝙧 :🅩🅔🅤🅢 🅩🅔🅝🅞\n__________________________\n 𝘾𝙊𝙐𝙉𝙏𝙍𝙔: 𝑩𝑬𝑳𝑮𝑰𝑼𝑴"
 		}
 	},
 
