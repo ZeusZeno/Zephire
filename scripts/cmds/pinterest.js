@@ -7,7 +7,7 @@ module.exports = {
     name: "pinterest",
     aliases: ["pin"],
     version: "1.0.2",
-    author: "JVB", 
+    author: "zeus zeno", 
     role: 0,
     countDown: 50,
     shortDescription: {
@@ -28,7 +28,7 @@ module.exports = {
 
       const keySearch = args.join(" ");
       if (!keySearch.includes("-")) {
-        return api.sendMessage(`𝐏𝐥𝐞𝐚𝐬𝐞 𝐞𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐬𝐞𝐚𝐫𝐜𝐡 𝐪𝐮𝐞𝐫𝐲 𝐚𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐢𝐦𝐚𝐠𝐞𝐬 𝐭𝐨 𝐫𝐞𝐭𝐮𝐫𝐧 𝐢𝐧 𝐭𝐡𝐞 𝐟𝐨𝐫𝐦𝐚𝐭: ${this.config.guide.en}\n__________________\n 🧛𝘿𝙍𝘼𝘾𝙐𝙇𝘼 🧛`, event.threadID, event.messageID);
+        return api.sendMessage(`𝐏𝐥𝐞𝐚𝐬𝐞 𝐞𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐬𝐞𝐚𝐫𝐜𝐡 𝐪𝐮𝐞𝐫𝐲 𝐚𝐧𝐝 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐢𝐦𝐚𝐠𝐞𝐬 𝐭𝐨 𝐫𝐞𝐭𝐮𝐫𝐧 𝐢𝐧 𝐭𝐡𝐞 𝐟𝐨𝐫𝐦𝐚𝐭: ${this.config.guide.en}\n__________________\n 🅩🅔🅟🅗🅘🅡🅔`, event.threadID, event.messageID);
       }
       const keySearchs = keySearch.substr(0, keySearch.indexOf('-')).trim();
       const numberSearch = parseInt(keySearch.split("-").pop().trim()) || 6;
